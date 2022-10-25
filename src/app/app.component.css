@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100vw;
+}
+
+.block1  {
+    display: flex;
+    align-self: flex-end;
+}
+
+.block2  {
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.block3  {
+    display: flex;
+    align-self: flex-end;
+    margin-right: -91%;
+}
+
+.block4  {
+    display: flex;
+    align-self: flex-start;
+}
